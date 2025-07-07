@@ -23,8 +23,8 @@
                 <li><a href="{{ route('home') }}">الصفحة الرئيسية</a></li>
                 <li><a href="#about">من نحن</a></li>
                 <li><a href="#squares">الساحات العمومية</a></li>
-                <li><a href="#comments">ارسل لنا تعليق</a></li>
                 <li><a href="#faq">الأسئلة الشائعة</a></li>
+                <li><a href="#comments">ارسل لنا تعليق</a></li>
             </ul>
         </nav>
         <div class="content">
@@ -134,7 +134,7 @@
     </section>
 
     <!-- Comments -->
-   <section class="container">
+   <section class="container" id="comments">
         <div class="commu-notification" id="notification"></div>
         <div class="title">اكتب تعليقك<p style="color: #666; font-size: 20px;">شاركنا رأيك وأفكارك</p></div>
         <div class="commu-container">
